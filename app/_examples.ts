@@ -2,23 +2,23 @@ import { Category } from "./_types";
 
 export const categories: Category[] = [
   {
-    category: 'ENCOURAGE, WITH "ON"',
-    items: ["EGG", "GOAD", "SPUR", "URGE"],
+    category: 'MISO SOUP INGREDIENTS',
+    items: ["TOFU", "MISO", "DASHI", "SCALLION"],
     level: 1,
   },
   {
-    category: "SPHERICAL FOODS",
-    items: ["JAWBREAKER", "MEATBALL", "MOZZARELLA", "ORANGE"],
+    category: "BTS SONGS",
+    items: ["DYNAMITE", "BUTTER", "DNA", "I NEED U"],
     level: 2,
   },
   {
-    category: "GROCERY STORE AISLES",
-    items: ["DAIRY", "FROZEN", "PRODUCE", "SNACK"],
+    category: "COCKTAILS",
+    items: ["MANHATTAN", "TORONTO", "SOJU SOUR", "SAKÉ MARTINI"],
     level: 3,
   },
   {
-    category: "GO ___",
-    items: ["BANANAS", "FIGURE", "FISH", "STEADY"],
+    category: "LAST 4 LETTERS OF PLACE THEY'VE LIVED",
+    items: ["ONTO", "YORK", "KONG", "LAND"],
     level: 4,
   },
 ];
