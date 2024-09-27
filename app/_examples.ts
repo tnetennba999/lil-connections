@@ -13,7 +13,7 @@ export const categories: Category[] = [
   },
   {
     category: "COCKTAILS",
-    items: ["MANHATTAN", "TORONTO", "SOJU SOUR", "SAKÉ MARTINI"],
+    items: ["MANHATTAN", "TORONTO", "PARADISE", "SAKÉ MARTINI"],
     level: 3,
   },
   {

@@ -28,13 +28,13 @@ export const getWordColor = (category: 1 | 2 | 3 | 4): string => {
 export const getPerfection = (mistakesRemaining: number) => {
   switch (mistakesRemaining) {
     case 4:
-      return "Perfect!";
+      return "Perfect Couple!";
     case 3:
-      return "Nice!";
+      return "Noice!";
     case 2:
-      return "Good!";
+      return "Hate to sad that, we are dissapointed!";
     default:
-      return "Phew!";
+      return "B for Bad.";
   }
 };
 
