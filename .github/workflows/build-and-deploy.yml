@@ -24,9 +24,6 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: Export static site
-        run: npm run export
-
       - name: Move exported files to the right folder
         run: |
           mkdir -p out/lil-connections
