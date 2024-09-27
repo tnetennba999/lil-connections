@@ -1,3 +1,5 @@
+Hey Miso and Tofu, in case you find my GitHub project that I have shamelessly stolen from someone, congratulations! Star my repo if you like it!
+
 # NYT Connections Clone
 
 Clone of the Connections game from the New York Times, written using Next.js.
