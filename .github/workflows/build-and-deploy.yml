@@ -26,8 +26,9 @@ jobs:
 
       - name: Move exported files to the right folder
         run: |
-          mkdir -p out/lil-connections
-          mv out/* out/lil-connections/
+          mkdir -p lil-connections
+          mv out/* lil-connections/
+          mv lil-connections out/
         shell: bash
 
       - name: Deploy to GitHub Pages
