@@ -1,4 +1,4 @@
-Hey Miso and Tofu, in case you find my GitHub project that I have shamelessly stolen from someone, congratulations! Star my repo if you like it!
+### _Hey Miso and Tofu 👰🏻‍♀️🤵🏻‍♂️, in case you find my GitHub project that I have shamelessly stolen from someone, congratulations ㊗ Star my repo if you like it ⭐️_
 
 # NYT Connections Clone
 
