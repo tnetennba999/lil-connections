@@ -1,0 +1,40 @@
+name: Build and Deploy App-1 to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master # Adjust this to your primary branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Next.js app
+        run: npm run build
+
+      - name: Export static site
+        run: npm run export
+
+      - name: Move exported files to the right folder
+        run: |
+          mkdir -p out/lil-connections
+          mv out/* out/lil-connections/
+        shell: bash
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
