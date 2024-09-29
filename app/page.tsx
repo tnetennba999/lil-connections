@@ -134,8 +134,8 @@ export default function Home() {
           {"Lil'Connections"}
         </h1>
         <hr className="mb-4 md:mb-4 w-full"></hr>
-        <h1 className="text-black mb-2">Hey Miso and Tofu, Congratualtions!</h1>
-        <h1 className="text-black mb-4">Kudos to Diu who raised this idea 2 days before your wedding days. Enjoy!</h1>
+        <h1 className="text-black text-center mb-2">Hey Miso and Tofu, Congratualtions!</h1>
+        <h1 className="text-black text-center mb-4">Kudos to Diu who raised this idea 2 days before your wedding days. Enjoy!</h1>
         <div className="relative w-full">
           <Popup show={popupState.show} message={popupState.message} />
           <Grid
